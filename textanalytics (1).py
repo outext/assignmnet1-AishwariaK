@@ -15,8 +15,10 @@ def download(g):
     """ This function downloads the json data from the url."""
     response = requests.get(url)
     soup = BeautifulSoup(response.content, "html.parser")
-    tags = soup.find_all(tag that you want to parse through)
+    tags = soup.find_all(tag code)
     # TODO add code here
+# my code will be added here
+
     return (total)
 
 
